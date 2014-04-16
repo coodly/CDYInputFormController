@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA0D934E18FEBE530049D777 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0D934D18FEBE530049D777 /* Foundation.framework */; };
+		EA0D935018FEBE530049D777 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0D934F18FEBE530049D777 /* CoreGraphics.framework */; };
+		EA0D935218FEBE530049D777 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0D935118FEBE530049D777 /* UIKit.framework */; };
+		EA0D935818FEBE530049D777 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA0D935618FEBE530049D777 /* InfoPlist.strings */; };
+		EA0D935A18FEBE530049D777 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0D935918FEBE530049D777 /* main.m */; };
+		EA0D935E18FEBE530049D777 /* CDYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0D935D18FEBE530049D777 /* CDYAppDelegate.m */; };
+		EA0D936018FEBE530049D777 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA0D935F18FEBE530049D777 /* Images.xcassets */; };
+		EA0D936718FEBE530049D777 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0D936618FEBE530049D777 /* XCTest.framework */; };
+		EA0D936818FEBE530049D777 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0D934D18FEBE530049D777 /* Foundation.framework */; };
+		EA0D936918FEBE530049D777 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0D935118FEBE530049D777 /* UIKit.framework */; };
+		EA0D937118FEBE530049D777 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA0D936F18FEBE530049D777 /* InfoPlist.strings */; };
+		EA0D937318FEBE530049D777 /* CDYInputFormControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0D937218FEBE530049D777 /* CDYInputFormControllerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA0D936A18FEBE530049D777 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA0D934218FEBE530049D777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA0D934918FEBE530049D777;
+			remoteInfo = CDYInputFormController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA0D934A18FEBE530049D777 /* CDYInputFormController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDYInputFormController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0D934D18FEBE530049D777 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA0D934F18FEBE530049D777 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA0D935118FEBE530049D777 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA0D935518FEBE530049D777 /* CDYInputFormController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CDYInputFormController-Info.plist"; sourceTree = "<group>"; };
+		EA0D935718FEBE530049D777 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA0D935918FEBE530049D777 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA0D935B18FEBE530049D777 /* CDYInputFormController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CDYInputFormController-Prefix.pch"; sourceTree = "<group>"; };
+		EA0D935C18FEBE530049D777 /* CDYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDYAppDelegate.h; sourceTree = "<group>"; };
+		EA0D935D18FEBE530049D777 /* CDYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDYAppDelegate.m; sourceTree = "<group>"; };
+		EA0D935F18FEBE530049D777 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA0D936518FEBE530049D777 /* CDYInputFormControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDYInputFormControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0D936618FEBE530049D777 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EA0D936E18FEBE530049D777 /* CDYInputFormControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CDYInputFormControllerTests-Info.plist"; sourceTree = "<group>"; };
+		EA0D937018FEBE530049D777 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA0D937218FEBE530049D777 /* CDYInputFormControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDYInputFormControllerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA0D934718FEBE530049D777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0D935018FEBE530049D777 /* CoreGraphics.framework in Frameworks */,
+				EA0D935218FEBE530049D777 /* UIKit.framework in Frameworks */,
+				EA0D934E18FEBE530049D777 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0D936218FEBE530049D777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0D936718FEBE530049D777 /* XCTest.framework in Frameworks */,
+				EA0D936918FEBE530049D777 /* UIKit.framework in Frameworks */,
+				EA0D936818FEBE530049D777 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA0D934118FEBE530049D777 = {
+			isa = PBXGroup;
+			children = (
+				EA0D935318FEBE530049D777 /* CDYInputFormController */,
+				EA0D936C18FEBE530049D777 /* CDYInputFormControllerTests */,
+				EA0D934C18FEBE530049D777 /* Frameworks */,
+				EA0D934B18FEBE530049D777 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA0D934B18FEBE530049D777 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA0D934A18FEBE530049D777 /* CDYInputFormController.app */,
+				EA0D936518FEBE530049D777 /* CDYInputFormControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA0D934C18FEBE530049D777 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA0D934D18FEBE530049D777 /* Foundation.framework */,
+				EA0D934F18FEBE530049D777 /* CoreGraphics.framework */,
+				EA0D935118FEBE530049D777 /* UIKit.framework */,
+				EA0D936618FEBE530049D777 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA0D935318FEBE530049D777 /* CDYInputFormController */ = {
+			isa = PBXGroup;
+			children = (
+				EA0D935C18FEBE530049D777 /* CDYAppDelegate.h */,
+				EA0D935D18FEBE530049D777 /* CDYAppDelegate.m */,
+				EA0D935F18FEBE530049D777 /* Images.xcassets */,
+				EA0D935418FEBE530049D777 /* Supporting Files */,
+			);
+			path = CDYInputFormController;
+			sourceTree = "<group>";
+		};
+		EA0D935418FEBE530049D777 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA0D935518FEBE530049D777 /* CDYInputFormController-Info.plist */,
+				EA0D935618FEBE530049D777 /* InfoPlist.strings */,
+				EA0D935918FEBE530049D777 /* main.m */,
+				EA0D935B18FEBE530049D777 /* CDYInputFormController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA0D936C18FEBE530049D777 /* CDYInputFormControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA0D937218FEBE530049D777 /* CDYInputFormControllerTests.m */,
+				EA0D936D18FEBE530049D777 /* Supporting Files */,
+			);
+			path = CDYInputFormControllerTests;
+			sourceTree = "<group>";
+		};
+		EA0D936D18FEBE530049D777 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA0D936E18FEBE530049D777 /* CDYInputFormControllerTests-Info.plist */,
+				EA0D936F18FEBE530049D777 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA0D934918FEBE530049D777 /* CDYInputFormController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0D937618FEBE530049D777 /* Build configuration list for PBXNativeTarget "CDYInputFormController" */;
+			buildPhases = (
+				EA0D934618FEBE530049D777 /* Sources */,
+				EA0D934718FEBE530049D777 /* Frameworks */,
+				EA0D934818FEBE530049D777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDYInputFormController;
+			productName = CDYInputFormController;
+			productReference = EA0D934A18FEBE530049D777 /* CDYInputFormController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA0D936418FEBE530049D777 /* CDYInputFormControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0D937918FEBE530049D777 /* Build configuration list for PBXNativeTarget "CDYInputFormControllerTests" */;
+			buildPhases = (
+				EA0D936118FEBE530049D777 /* Sources */,
+				EA0D936218FEBE530049D777 /* Frameworks */,
+				EA0D936318FEBE530049D777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA0D936B18FEBE530049D777 /* PBXTargetDependency */,
+			);
+			name = CDYInputFormControllerTests;
+			productName = CDYInputFormControllerTests;
+			productReference = EA0D936518FEBE530049D777 /* CDYInputFormControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA0D934218FEBE530049D777 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CDY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Coodly OÜ";
+				TargetAttributes = {
+					EA0D936418FEBE530049D777 = {
+						TestTargetID = EA0D934918FEBE530049D777;
+					};
+				};
+			};
+			buildConfigurationList = EA0D934518FEBE530049D777 /* Build configuration list for PBXProject "CDYInputFormController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA0D934118FEBE530049D777;
+			productRefGroup = EA0D934B18FEBE530049D777 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA0D934918FEBE530049D777 /* CDYInputFormController */,
+				EA0D936418FEBE530049D777 /* CDYInputFormControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA0D934818FEBE530049D777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0D935818FEBE530049D777 /* InfoPlist.strings in Resources */,
+				EA0D936018FEBE530049D777 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0D936318FEBE530049D777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0D937118FEBE530049D777 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA0D934618FEBE530049D777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0D935A18FEBE530049D777 /* main.m in Sources */,
+				EA0D935E18FEBE530049D777 /* CDYAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0D936118FEBE530049D777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0D937318FEBE530049D777 /* CDYInputFormControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA0D936B18FEBE530049D777 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA0D934918FEBE530049D777 /* CDYInputFormController */;
+			targetProxy = EA0D936A18FEBE530049D777 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA0D935618FEBE530049D777 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0D935718FEBE530049D777 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA0D936F18FEBE530049D777 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0D937018FEBE530049D777 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA0D937418FEBE530049D777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA0D937518FEBE530049D777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA0D937718FEBE530049D777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CDYInputFormController/CDYInputFormController-Prefix.pch";
+				INFOPLIST_FILE = "CDYInputFormController/CDYInputFormController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA0D937818FEBE530049D777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CDYInputFormController/CDYInputFormController-Prefix.pch";
+				INFOPLIST_FILE = "CDYInputFormController/CDYInputFormController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EA0D937A18FEBE530049D777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CDYInputFormController.app/CDYInputFormController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CDYInputFormController/CDYInputFormController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CDYInputFormControllerTests/CDYInputFormControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EA0D937B18FEBE530049D777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CDYInputFormController.app/CDYInputFormController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CDYInputFormController/CDYInputFormController-Prefix.pch";
+				INFOPLIST_FILE = "CDYInputFormControllerTests/CDYInputFormControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA0D934518FEBE530049D777 /* Build configuration list for PBXProject "CDYInputFormController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0D937418FEBE530049D777 /* Debug */,
+				EA0D937518FEBE530049D777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0D937618FEBE530049D777 /* Build configuration list for PBXNativeTarget "CDYInputFormController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0D937718FEBE530049D777 /* Debug */,
+				EA0D937818FEBE530049D777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA0D937918FEBE530049D777 /* Build configuration list for PBXNativeTarget "CDYInputFormControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0D937A18FEBE530049D777 /* Debug */,
+				EA0D937B18FEBE530049D777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA0D934218FEBE530049D777 /* Project object */;
+}
