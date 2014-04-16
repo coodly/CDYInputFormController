@@ -16,6 +16,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class CDYTableSection;
+
 @interface CDYInputFormController : UITableViewController
+
+- (void)addSection:(CDYTableSection *)section;
+- (void)tappedCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath;
 
 @end
