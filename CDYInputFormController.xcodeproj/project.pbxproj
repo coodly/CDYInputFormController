@@ -48,6 +48,7 @@
 		EA0D936E18FEBE530049D777 /* CDYInputFormControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CDYInputFormControllerTests-Info.plist"; sourceTree = "<group>"; };
 		EA0D937018FEBE530049D777 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA0D937218FEBE530049D777 /* CDYInputFormControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDYInputFormControllerTests.m; sourceTree = "<group>"; };
+		EA0D937D18FEBF3C0049D777 /* CDYInputFormController.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CDYInputFormController.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,8 @@
 		EA0D934118FEBE530049D777 = {
 			isa = PBXGroup;
 			children = (
+				EA0D937D18FEBF3C0049D777 /* CDYInputFormController.podspec */,
+				EA0D937C18FEBF090049D777 /* Core */,
 				EA0D935318FEBE530049D777 /* CDYInputFormController */,
 				EA0D936C18FEBE530049D777 /* CDYInputFormControllerTests */,
 				EA0D934C18FEBE530049D777 /* Frameworks */,
@@ -142,6 +145,13 @@
 				EA0D936F18FEBE530049D777 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA0D937C18FEBF090049D777 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
