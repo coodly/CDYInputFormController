@@ -19,6 +19,7 @@
 		EA0D936918FEBE530049D777 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0D935118FEBE530049D777 /* UIKit.framework */; };
 		EA0D937118FEBE530049D777 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA0D936F18FEBE530049D777 /* InfoPlist.strings */; };
 		EA0D937318FEBE530049D777 /* CDYInputFormControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0D937218FEBE530049D777 /* CDYInputFormControllerTests.m */; };
+		EA0D938018FEBFBE0049D777 /* CDYInputFormController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0D937F18FEBFBE0049D777 /* CDYInputFormController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		EA0D937018FEBE530049D777 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA0D937218FEBE530049D777 /* CDYInputFormControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDYInputFormControllerTests.m; sourceTree = "<group>"; };
 		EA0D937D18FEBF3C0049D777 /* CDYInputFormController.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CDYInputFormController.podspec; sourceTree = "<group>"; };
+		EA0D937E18FEBFBE0049D777 /* CDYInputFormController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDYInputFormController.h; sourceTree = "<group>"; };
+		EA0D937F18FEBFBE0049D777 /* CDYInputFormController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDYInputFormController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +153,8 @@
 		EA0D937C18FEBF090049D777 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				EA0D937E18FEBFBE0049D777 /* CDYInputFormController.h */,
+				EA0D937F18FEBFBE0049D777 /* CDYInputFormController.m */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 			files = (
 				EA0D935A18FEBE530049D777 /* main.m in Sources */,
 				EA0D935E18FEBE530049D777 /* CDYAppDelegate.m in Sources */,
+				EA0D938018FEBFBE0049D777 /* CDYInputFormController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
